@@ -1,4 +1,4 @@
-# Parking-Master-Tipper (tipper.js API)
+# FPS-Tipper (tipper.js API)
 This API for FPS and FPS only is a notifier that gives tips throughout gameplay on the official web-game, or desktop app.
 ##### A quick walkthrough of how it works
 ___
