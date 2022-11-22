@@ -6,7 +6,7 @@ if (!w.i) {
   w.i.n = (msg) => new Notification("FPS2", { body: msg });
 } else {
   w.i.n = w.i.Notify;
-  w.i.n.init({timeout:5000,info:{background:"#fff",textColor:"#38b6ff",notiflixIconColor:"#38b6ff"}});
+  w.i.n.init({position:"left-top",timeout:5000,info:{background:"#fff",textColor:"#38b6ff",notiflixIconColor:"#38b6ff"}});
 }
 const tips = [{ type: "tip", text: "Playing with Game Modes lets you use different types of misc, items, and more!" }, { type: "tip", text: "We support Gamepads (like Xbox and PS) on the menu and in-game" }, { type: "reminder", text: "Signup for a free account and save status, points, and rewards wherever you go" }, { type: "reminder", text: "In Preferences, you can customize all settings, loadouts, and more!" }, { type: "reminder", text: "Like the game? Check us out on GitHub for future updates and feature requests." }];
 function tip() {
