@@ -13,7 +13,7 @@ if (!(location.hostname.endsWith(".uk.to") || location.hostname === "localhost")
 `), 500);
 
 const w = window === window.top ? window : window.top;
-w.Notiflix ? void(0) : import("https://cdn.jsdelivr.net/gh/notiflix/Notiflix@latest/dist/notiflix-aio-3.2.5.min.js");
+w.Notiflix ? void(0) : import("https://cdn.jsdelivr.net/gh/notiflix/Notiflix@latest/dist/notiflix-aio-3.2.7.min.js");
 w.i = w.Notiflix;
 if (!w.i) {
   w.i = w;
